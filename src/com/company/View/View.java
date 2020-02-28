@@ -40,7 +40,7 @@ public class View {
         System.out.println("\033[32mThis is the color green\033[0m");
         System.out.println("\033[33mThis is the color Yellow\033[0m");
         System.out.println("\033[34mThis is the color Blue\033[0m");
-        System.out.println("\033[35mThis is the color Light purple?\033[0m");
+        System.out.println("\033[35mThis is the color Purple\033[0m");
         System.out.println("\033[36mThis is the color cyan\033[0m");
         System.out.println("\033[37mThis is the color Grey\033[0m");
         System.out.println("\033[40mHighlight White\033[0m");
