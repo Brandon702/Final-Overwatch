@@ -33,9 +33,8 @@ public class View {
         System.out.println("\033[4mUnderline\033[0m");
         System.out.println("\033[7mHighlight\033[0m");
         System.out.println("\033[9mCrossout\033[0m");
-        System.out.println("\033[20mLatin? es tu brutus\033[0m");
         System.out.println("\033[21mBold Underline\033[0m");
-        System.out.println("\033[30mThis is the color White\033[0m");
+        System.out.println("\033[30mThis is the color Black\033[0m");
         System.out.println("\033[31mThis is the color red\033[0m");
         System.out.println("\033[32mThis is the color green\033[0m");
         System.out.println("\033[33mThis is the color Yellow\033[0m");
@@ -43,7 +42,7 @@ public class View {
         System.out.println("\033[35mThis is the color Purple\033[0m");
         System.out.println("\033[36mThis is the color cyan\033[0m");
         System.out.println("\033[37mThis is the color Grey\033[0m");
-        System.out.println("\033[40mHighlight White\033[0m");
+        System.out.println("\033[40mHighlight Black\033[0m");
         System.out.println("\033[41mHighlight Red\033[0m");
         System.out.println("\033[42mHighlight Green\033[0m");
         System.out.println("\033[43mHighlight Yellow\033[0m");
@@ -53,5 +52,7 @@ public class View {
         System.out.println("\033[47mHighlight Grey\033[0m");
         System.out.println("\033[51mFramed words\033[0m");
         System.out.println("\033[52mEncircled words\033[0m");
+        System.out.println("\u001B[40m\033[34mThis is the color black\033[0m\u001B[0m");
+        System.out.println("\u001B[47m\033[34mThis is the color white\033[0m\u001B[0m");
     }
 }
