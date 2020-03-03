@@ -20,39 +20,144 @@ public class View {
                            "................................................................................\n" +
                            "................................................................................\n" +
                            "................................................................................\n" +
-                           "............................./|.................................................\n" +
-                           "............................/.|.................................................\n" +
-                           ".........................../..|.................................................\n" +
-                           "...........................|..|.................................................\n" +
-                           "...........................|..|.................................................\n" +
-                           "...........................|..|.................................................\n");
-        System.out.println("\033[31;1mHello\033[0m, \033[32;1;2mworld!\033[0m");
-        System.out.println("This is the default color");
-        System.out.println("\033[1mBold\033[0m");
-        System.out.println("\033[3mSlanted\033[0m");
-        System.out.println("\033[4mUnderline\033[0m");
-        System.out.println("\033[7mHighlight\033[0m");
-        System.out.println("\033[9mCrossout\033[0m");
-        System.out.println("\033[21mBold Underline\033[0m");
-        System.out.println("\033[30mThis is the color Black\033[0m");
-        System.out.println("\033[31mThis is the color red\033[0m");
-        System.out.println("\033[32mThis is the color green\033[0m");
-        System.out.println("\033[33mThis is the color Yellow\033[0m");
-        System.out.println("\033[34mThis is the color Blue\033[0m");
-        System.out.println("\033[35mThis is the color Purple\033[0m");
-        System.out.println("\033[36mThis is the color cyan\033[0m");
-        System.out.println("\033[37mThis is the color Grey\033[0m");
-        System.out.println("\033[40mHighlight Black\033[0m");
-        System.out.println("\033[41mHighlight Red\033[0m");
-        System.out.println("\033[42mHighlight Green\033[0m");
-        System.out.println("\033[43mHighlight Yellow\033[0m");
-        System.out.println("\033[44mHighlight Blue\033[0m");
-        System.out.println("\033[45mHighlight Purple\033[0m");
-        System.out.println("\033[46mHighlight Cyan\033[0m");
-        System.out.println("\033[47mHighlight Grey\033[0m");
-        System.out.println("\033[51mFramed words\033[0m");
-        System.out.println("\033[52mEncircled words\033[0m");
-        System.out.println("\u001B[40m\033[34mThis is the color black\033[0m\u001B[0m");
-        System.out.println("\u001B[47m\033[34mThis is the color white\033[0m\u001B[0m");
+                           "................................................................................\n" +
+                           "................................................................................\n" +
+                           "................................................................................\n" +
+                           "................................................................................\n" +
+                           "................................................................................\n" +
+                           "................................................................................\n");
+    }
+    //Methods for colors
+
+    private String bold(String input) {
+        String output;
+        output = "\033[1m" + input + "\033[0m";
+        return output;
+    }
+
+    private String slant(String input) {
+        String output;
+        output= "\033[3m" + input + "\033[0m";
+        return output;
+    }
+
+    private String underline (String input) {
+        String output;
+        output = "\033[4m" + input + "\033[0m";
+        return output;
+    }
+
+    private String crossout(String input) {
+        String output;
+        output = "\033[9m" + input + "\033[0m";
+        return output;
+    }
+
+    private String boldUnderline(String input) {
+        String output;
+        output = "\033[21m" + input + "\033[0m";
+        return output;
+    }
+
+    private String blackFont(String input) {
+        String output;
+        output = "\033[30m" + input + "\033[0m";
+        return output;
+    }
+
+    private String redFont(String input) {
+        String output;
+        output = "\033[31m" + input + "\033[0m";
+        return output;
+    }
+
+    private String greenFont(String input) {
+        String output;
+        output = "\033[32m" + input + "\033[0m";
+        return output;
+    }
+
+    private String yellowFont(String input) {
+        String output;
+        output = "\033[33m" + input + "\033[0m";
+        return output;
+    }
+
+    private String blueFont(String input) {
+        String output;
+        output = "\033[34m" + input + "\033[0m";
+        return output;
+    }
+
+    private String purpleFont(String input) {
+        String output;
+        output = "\033[35m" + input + "\033[0m";
+        return output;
+    }
+
+    private String cyanFont(String input) {
+        String output;
+        output = "\033[36m" + input + "\033[0m";
+        return output;
+    }
+
+    private String whiteFont(String input) {
+        String output;
+        output = "\033[37m" + input + "\033[0m";
+        return output;
+    }
+
+    private String blackHighlight(String input) {
+        String output;
+        output = "\033[40m" + input + "\033[0m";
+        return output;
+    }
+
+    private String redHighlight(String input) {
+        String output;
+        output = "\033[41m" + input + "\033[0m";
+        return output;
+    }
+
+    private String greenHighlight(String input) {
+        String output;
+        output = "\033[42m" + input + "\033[0m";
+        return output;
+    }
+
+    private String yellowHighlight(String input) {
+        String output;
+        output = "\033[43m" + input + "\033[0m";
+        return output;
+    }
+
+    private String blueHighlight(String input) {
+        String output;
+        output = "\033[44m" + input + "\033[0m";
+        return output;
+    }
+
+    private String purpleHighlight(String input) {
+        String output;
+        output = "\033[45m" + input + "\033[0m";
+        return output;
+    }
+
+    private String cyanHighlight(String input) {
+        String output;
+        output = "\033[46m" + input + "\033[0m";
+        return output;
+    }
+
+    private String whiteHighlight(String input) {
+        String output;
+        output = "\033[47m" + input + "\033[0m";
+        return output;
+    }
+
+    private String encircled(String input) {
+        String output;
+        output = "\033[51m" + input + "\033[0m";
+        return output;
     }
 }
