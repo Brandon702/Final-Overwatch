@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.Model.Reinhardt;
 import com.company.View.View;
 
 public class Main {
@@ -8,5 +9,8 @@ public class Main {
         //Michael here
         View view = new View();
         view.test();
+
+        Reinhardt reinhardt = new Reinhardt();
+        System.out.println(reinhardt);
     }
 }

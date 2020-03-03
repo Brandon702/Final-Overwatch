@@ -87,15 +87,20 @@ public abstract class Hero {
 
     @Override
     public String toString() {
-        return "Hero{" +
-                "characterName='" + characterName + '\'' +
-                ", characterInfo='" + characterInfo + '\'' +
-                ", characterWeapon='" + characterWeapon + '\'' +
-                ", eAbilityInfo='" + eAbilityInfo + '\'' +
-                ", shiftAbilityInfo='" + shiftAbilityInfo + '\'' +
-                ", rightClickAbilityInfo='" + rightClickAbilityInfo + '\'' +
-                ", qAbilityInfo='" + qAbilityInfo + '\'' +
-                ", characterTips='" + characterTips + '\'' +
-                '}';
+        return  characterName +
+                "----------------\n" +
+                 characterInfo +
+                "------------------\n" +
+                 characterWeapon +
+                "---------------\n" +
+                eAbilityInfo +
+                "----------------\n" +
+                shiftAbilityInfo +
+                "-------------\n" +
+               rightClickAbilityInfo +
+                "------------------\n" +
+                qAbilityInfo +
+                "---------------\n" +
+                characterTips;
     }
 }
