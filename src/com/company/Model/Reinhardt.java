@@ -5,11 +5,12 @@ public class Reinhardt extends Hero {
     public Reinhardt() {
 
             super("Reinhardt \n", "Real Name: Reinhardt Wilhelm\n" +
-                            "age: 61 \n" +
+                            "Age: 61 \n" +
                             "Nationality: German \n" +
                             "Health: 300\n" +
-                            "Armor: 200\n",
-                    "Reinhardt's primary weapon is a Rocket Hammer\n" +
+                            "Armor: 200\n" +
+                            "Role: Tank\n",
+                    "Reinhardt's Primary Weapon is a Rocket Hammer\n" +
                             "Weapon type: Melee\n" +
                             "Damage Per Swing: 75 \n" +
                             "Max Range: 5 meters \n" +
@@ -28,7 +29,7 @@ public class Reinhardt extends Hero {
                             "Casting time: 0.6 seconds \n" +
                             "Duration: 3 seconds max with a 0.65 second stun at the end of the pin \n" +
                             "Cooldown: 10 seconds\n",
-                    "Reinhardt's rightclick ability is Barrier \n" +
+                    "Reinhardt's Right Click Ability is Barrier \n" +
                             "Health: 1600 \n" +
                             "Healing: Regains 200 hit points per second, after it has been down for 2 seconds " +
                             "Movement Speed Penalty: 30% while shield is up \n" +
@@ -39,8 +40,8 @@ public class Reinhardt extends Hero {
                             "Max Range: 20 meters \n" +
                             "Casting time: 0.45 seconds, 0.5 second recovery \n" +
                             "Duration: Enemies caught in the shatter are downed for 3 seconds and cannot use abilities or move \n" +
-                            "Casting cost: 1540 points or about 2 and a half minutes without doing anything\n",
-                    "Here are a few tips on how to play Reinhardt at a beginner level \n" +
+                            "Casting cost: 1540 points or 1% charge every 3.08 seconds without doing anything\n",
+                    "Here are a few tips for a beginner Reinhardt player \n" +
                             "------------------------\n" +
                             "Tip 1: Reinhardt's Earthshatter is one of the best ults in the game and one of the best stuns in the game,\n" +
                             "but it is one of the most counterable. Any sort of shielding object (ex. Another Rein shield, Zarya bubble, \n" +
