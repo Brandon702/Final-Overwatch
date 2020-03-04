@@ -11,8 +11,8 @@ public class Main {
         View view = new View();
         view.test();
 
-        Reinhardt reinhardt = new Reinhardt();
-        System.out.println(reinhardt);
+//        Reinhardt reinhardt = new Reinhardt();
+//        System.out.println(reinhardt);
 
         McCree mcCree = new McCree();
         System.out.println(mcCree);
