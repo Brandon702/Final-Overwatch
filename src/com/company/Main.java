@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.Model.McCree;
 import com.company.Model.Reinhardt;
 import com.company.View.View;
 
@@ -12,5 +13,8 @@ public class Main {
 
         Reinhardt reinhardt = new Reinhardt();
         System.out.println(reinhardt);
+
+        McCree mcCree = new McCree();
+        System.out.println(mcCree);
     }
 }
