@@ -9,7 +9,8 @@ public class Reinhardt extends Hero {
                             "Nationality: German \n" +
                             "Health: 300\n" +
                             "Armor: 200\n" +
-                            "Role: Tank\n",
+                            "Role: Tank\n" +
+                            "Reinhardt also has a Passive Ability called Steadfast: Reduces all knock back by 50%",
                     "Reinhardt's Primary Weapon is a Rocket Hammer\n" +
                             "Weapon type: Melee\n" +
                             "Damage Per Swing: 75 \n" +
