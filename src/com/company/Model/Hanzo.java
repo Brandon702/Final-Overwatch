@@ -51,6 +51,12 @@ public class Hanzo extends Hero {
                 "Ultimate cost: 1680 points or 1% ult charge every 3.36 seconds passively\n",
                 "Here are a few tips for a beginner Hanzo player\n" +
                 "-------------------------------\n" +
-                "Tip 1: ");
+                "Tip 1: Hanzo's Dragonstrike can only travel in a straight line. To get the best use out of you ult, either wait for the enemies to \n" +
+                "funnel through a choke if it's a Capture the Point or if they are pushing the payload on Payload. \n" +
+                "---------------------------\n" +
+                "Tip 2: Use Hanzo's Wall Climb ability (his passive) to get the high ground and angles on your enemy where you can kill them, but they can't kill you.\n" +
+                "---------------------------\n" +
+                "Tip 3: Hanzo's Sonic Arrow lets you see enemies who are behind objects (such as walls) so if you can't see someone, just sonic arrow a wall and they could be\n" +
+                "there and that is very helpful info for your team and the arrow can win fights before they start.");
     }
 }
