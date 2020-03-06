@@ -49,6 +49,8 @@ public class Hanzo extends Hero {
                 "Casting time: 0.9 seconds (charging), 0.6 seconds(arrow before becoming Dragons)\n" +
                 "Headshot: Arrow: Yes, Dragons: No\n" +
                 "Ultimate cost: 1680 points or 1% ult charge every 3.36 seconds passively\n",
-                "characterTips");
+                "Here are a few tips for a beginner Hanzo player\n" +
+                "-------------------------------\n" +
+                "Tip 1: ");
     }
 }

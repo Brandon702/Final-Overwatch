@@ -23,48 +23,42 @@ public class Controller {
     public void run() {
         //Make menu if/switch system here
         view.anaArt();
-        ana.getCharacterName();
-        ana.getCharacterInfo();
-        ana.getCharacterWeapon();
-        ana.geteAbilityInfo();
-        ana.getShiftAbilityInfo();
-        ana.getRightClickAbilityInfo();
-        ana.getqAbilityInfo();
-        ana.getCharacterTips();
+        System.out.println(ana.toString());
         //call models here
 
         view.genjiArt();
+        System.out.println(genji.toString());
 
 
 
         view.hanzoArt();
-
+        System.out.println(hanzo.toString());
 
         view.lucioArt();
-
+        System.out.println(lucio.toString());
 
         view.mccreeArt();
-
+        System.out.println(mcCree.toString());
 
         view.moriaArt();
-
+        System.out.println(moria.toString());
 
         view.reaperArt();
-
+        System.out.println(reaper.toString());
 
         view.reinhardtArt();
-
+        System.out.println(reinhardt.toString());
 
         view.roadhogArt();
-
+        System.out.println(roadhog.toString());
 
         view.tracerArt();
-
+        System.out.println(tracer.toString());
 
         view.widowmakerArt();
-
+        System.out.println(widowmaker.toString());
 
         view.wreckingballArt();
-
+        System.out.println(wreckingBall.toString());
     }
 }
