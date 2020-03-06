@@ -19,6 +19,41 @@ public class Controller {
     WreckingBall wreckingBall = new WreckingBall();
 
     public void run() {
+        //Make menu if/switch system here
         view.anaArt();
+
+
+        view.genjiArt();
+
+
+        view.hanzoArt();
+
+
+        view.lucioArt();
+
+
+        view.mccreeArt();
+
+
+        view.moriaArt();
+
+
+        view.reaperArt();
+
+
+        view.reinhardtArt();
+
+
+        view.roadhogArt();
+
+
+        view.tracerArt();
+
+
+        view.widowmakerArt();
+
+
+        view.wreckingballArt();
+
     }
 }
