@@ -11,14 +11,5 @@ public class Main {
         //Michael here
         View view = new View();
         view.test();
-
-//        Reinhardt reinhardt = new Reinhardt();
-//        System.out.println(reinhardt);
-
-//        McCree mcCree = new McCree();
-//        System.out.println(mcCree);
-
-        Lucio lucio = new Lucio();
-        System.out.println(lucio);
     }
 }
