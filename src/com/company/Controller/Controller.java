@@ -21,7 +21,7 @@ public class Controller {
     public void run() {
         //Make menu if/switch system here
         view.anaArt();
-
+        //call models here
 
         view.genjiArt();
 
