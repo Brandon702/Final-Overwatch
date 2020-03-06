@@ -3,6 +3,8 @@ package com.company.Controller;
 import com.company.Model.*;
 import com.company.View.View;
 
+import java.util.ArrayList;
+
 public class Controller {
     View view = new View();
     Ana ana = new Ana();
@@ -21,9 +23,18 @@ public class Controller {
     public void run() {
         //Make menu if/switch system here
         view.anaArt();
+        ana.getCharacterName();
+        ana.getCharacterInfo();
+        ana.getCharacterWeapon();
+        ana.geteAbilityInfo();
+        ana.getShiftAbilityInfo();
+        ana.getRightClickAbilityInfo();
+        ana.getqAbilityInfo();
+        ana.getCharacterTips();
         //call models here
 
         view.genjiArt();
+
 
 
         view.hanzoArt();
