@@ -18,5 +18,7 @@ public class Controller {
     Widowmaker widowmaker = new Widowmaker();
     WreckingBall wreckingBall = new WreckingBall();
 
-    view.
+    public void run() {
+        view.anaArt();
+    }
 }
