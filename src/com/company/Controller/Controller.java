@@ -29,8 +29,6 @@ public class Controller {
         view.genjiArt();
         System.out.println(genji.toString());
 
-
-
         view.hanzoArt();
         System.out.println(hanzo.toString());
 
