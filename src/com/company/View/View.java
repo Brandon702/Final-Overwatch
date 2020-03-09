@@ -3,6 +3,14 @@ package com.company.View;
 public class View {
     Colors color = new Colors();
 
+    public void createMenu(){
+        System.out.println("1: View Characters" + "\n" + "2:Exit");
+    }
+
+    public void createCharacterMenu(){
+        System.out.println("1: Ana" + "\n" + "2: Genji" + "\n" + "3: Hanzo" + "\n" + "4: Lucio" + "\n" + "5: McCree" + "\n" + "6: Moria" + "\n" + "7: Reaper" + "\n" + "8: Reinhardt" + "\n" + "9: Roadhog" + "\n" + "10: Tracer" + "\n" + "11: Widowmaker" + "\n" + "12: WreckingBall");
+    }
+
         public void anaArt () {
             System.out.println("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx'..;OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
                     "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0;..'dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n" +
