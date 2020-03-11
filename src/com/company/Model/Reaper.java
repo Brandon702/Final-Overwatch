@@ -42,13 +42,16 @@ public class Reaper extends Hero {
                 "Headshot: No\n" +
                 "Ultimate Cost: 2100 points or 1% charge every 4.20 seconds passively\n",
                 "Here are a few tips for a beginner Reinhardt player\n" +
+                "------------------------\n" +
                 "Tip 1: Reaper's Death Blossom is most effective in the middle of a team fight when it is least expected. If you can get the team mid fight, best use.\n" +
                 "However, any sort of barrier (shield, environment, or payload) or any Crowd Control ability (Mei freezing or wall, Brigs whip, or a Rein charge) can either make your\n" +
                 "ult wasted, kill you, or make you immobile so watch out for that.\n" +
+                "---------------------------\n" +
                 "Tip 2: Reaper's Shadow Step is a personal teleporter. You can use it to take or contest high ground or use it to get a flank on your enemy tanks because Reaper\n" +
                 "is most effective against tanks.\n" +
+                "----------------------------\n" +
                 "Tip 3: Characters with stun abilities or other Crowd Control abilities (McCree, Mei, Brig) are very effective against you so avoid them if you don't know\n" +
                 "if their abilities are on cooldown and any squishy character (someone under 250 base HP) aren't great for Reaper. You get the most out of attacking the enemy tanks.\n" +
-                "That doesn't mean avoid DPS and Support characters, just focus on tanks first.");
+                "That doesn't mean avoid DPS and Support characters, just focus on tanks first.\n");
     }
 }

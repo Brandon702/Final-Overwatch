@@ -10,7 +10,7 @@ public class Reinhardt extends Hero {
                             "Health: 300\n" +
                             "Armor: 200\n" +
                             "Role: Tank\n" +
-                            "Reinhardt also has a Passive Ability called Steadfast: Reduces all knock back by 50%",
+                            "Reinhardt also has a Passive Ability called Steadfast: Reduces all knock back by 50%\n",
                     "Reinhardt's Primary Weapon is a Rocket Hammer\n" +
                             "Weapon type: Melee\n" +
                             "Damage Per Swing: 75 \n" +
@@ -42,7 +42,7 @@ public class Reinhardt extends Hero {
                             "Casting time: 0.45 seconds, 0.5 second recovery \n" +
                             "Duration: Enemies caught in the shatter are downed for 3 seconds and cannot use abilities or move \n" +
                             "Casting cost: 1540 points or 1% charge every 3.08 seconds without doing anything\n",
-                    "Here are a few tips for a beginner Reinhardt player \n" +
+                    "Here are a few tips for a beginner Reinhardt player\n" +
                             "------------------------\n" +
                             "Tip 1: Reinhardt's Earthshatter is one of the best ults in the game and one of the best stuns in the game,\n" +
                             "but it is one of the most counterable. Any sort of shielding object (ex. Another Rein shield, Zarya bubble, \n" +
@@ -53,7 +53,7 @@ public class Reinhardt extends Hero {
                             "---------------------------\n" +
                             "Tip 3: While using Reinhardt's Charge ability, don't charge into deep. The enemy has a free kill. Try to pick off either \n" +
                             "an enemy tank or healer to get the most of your charge and if the enemy gets to close, use it to give your team some space, \n" +
-                            "but don't charge to far from your team because then they are vulnerable.");
+                            "but don't charge to far from your team because then they are vulnerable.\n");
         }
 
 }

@@ -62,6 +62,6 @@ public class Lucio extends Hero {
                 "----------------------\n" +
                 "Tip 4: Lucio's abilities will not effect teammates who aren't in line of sight of you. If they are behind a wall,\n" +
                 "they won't get shield from your ultimate, healing or speed boost from your Crossfade, and it won't do you any good\n" +
-                "to ult and your team be behind a wall.");
+                "to ult and your team be behind a wall.\n");
     }
 }

@@ -3,7 +3,7 @@ package com.company.Model;
 public class Hanzo extends Hero {
 
     public Hanzo() {
-        super("Hanzo",
+        super("Hanzo\n",
                 "Real Name: Hanzo Shimada\n" +
                 "Age: 38\n" +
                 "Nationality: Japanese\n" +
@@ -57,6 +57,6 @@ public class Hanzo extends Hero {
                 "Tip 2: Use Hanzo's Wall Climb ability (his passive) to get the high ground and angles on your enemy where you can kill them, but they can't kill you.\n" +
                 "---------------------------\n" +
                 "Tip 3: Hanzo's Sonic Arrow lets you see enemies who are behind objects (such as walls) so if you can't see someone, just sonic arrow a wall and they could be\n" +
-                "there and that is very helpful info for your team and the arrow can win fights before they start.");
+                "there and that is very helpful info for your team and the arrow can win fights before they start.\n");
     }
 }

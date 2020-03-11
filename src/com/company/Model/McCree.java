@@ -69,6 +69,6 @@ public class McCree extends Hero {
                 "Tip 3: Your flashbang is a fantastic ability. You can throw it above a Rein shield to stun him out of shield to get free damage on him or his teammates.\n" +
                 "--------------------\n" +
                 "Tip 4: You combat roll reloads your gun after you roll. Try Fan The Hammer on a tank, rolling to reload quick, and Fan The Hammer again on the same\n" +
-                "tank to get a kill or get them low enough for you or a teammate to finish off easily.");
+                "tank to get a kill or get them low enough for you or a teammate to finish off easily.\n");
     }
 }
